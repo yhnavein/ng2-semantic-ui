@@ -19,7 +19,7 @@ export class SuiPopupDirective<T> extends SuiPopupTemplateController<T> {
         this.popup.config.header = header;
     }
 
-    @Input()
+    @Input("suiPopup")
     public set popupText(text:string) {
         this.popup.config.text = text;
     }
