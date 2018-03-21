@@ -1,5 +1,5 @@
 {
-  "name": "ng2-semantic-ui",
+  "name": "@yhnavein/ng2-semantic-ui",
   "main": "bundles/ng2-semantic-ui.umd.min.js",
   "module": "dist/public.js",
   "typings": "dist/public.d.ts",
@@ -7,10 +7,10 @@
   "description": "Angular 2 Semantic UI Components",
   "repository": {
     "type": "git",
-    "url": "https://github.com/edcarroll/ng2-semantic-ui/tree/master"
+    "url": "https://github.com/yhnavein/ng2-semantic-ui/tree/master"
   },
   "bugs": {
-    "url": "https://github.com/edcarroll/ng2-semantic-ui/tree/master/issues"
+    "url": "https://github.com/yhnavein/ng2-semantic-ui/tree/master/issues"
   },
   "author": "Edward Carroll",
   "keywords": [

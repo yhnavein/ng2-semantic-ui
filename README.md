@@ -1,13 +1,13 @@
 <!-- Logo -->
 <p align="center">
-  <a href="https://edcarroll.github.io/ng2-semantic-ui/">
-    <img height="128" width="238" src="https://raw.githubusercontent.com/edcarroll/ng2-semantic-ui/master/demo/src/assets/logo.png">
+  <a href="https://yhnavein.github.io/ng2-semantic-ui/">
+    <img height="128" width="238" src="https://raw.githubusercontent.com/yhnavein/ng2-semantic-ui/master/demo/src/assets/logo.png">
   </a>
 </p>
 
 <!-- Name -->
 <h1 align="center">
-  <a href="https://edcarroll.github.io/ng2-semantic-ui">ng2-semantic-ui</a>
+  <a href="https://yhnavein.github.io/ng2-semantic-ui">ng2-semantic-ui</a>
 </h1>
 
 <!-- Badges -->
@@ -15,8 +15,8 @@
   <a href="https://gitter.im/ng2-semantic-ui/Lobby">
     <img alt="Gitter" src="https://img.shields.io/gitter/room/ng2-semantic-ui/Lobby.js.svg?style=flat-square" />
   </a>
-  <a href="https://travis-ci.org/edcarroll/ng2-semantic-ui">
-    <img alt="Travis CI" src="https://img.shields.io/travis/edcarroll/ng2-semantic-ui.svg?style=flat-square" />
+  <a href="https://travis-ci.org/yhnavein/ng2-semantic-ui">
+    <img alt="Travis CI" src="https://img.shields.io/travis/yhnavein/ng2-semantic-ui.svg?style=flat-square" />
   </a>
   <a href="https://www.npmjs.com/package/ng2-semantic-ui">
     <img alt="npm" src="https://img.shields.io/npm/v/ng2-semantic-ui.svg?style=flat-square" />
