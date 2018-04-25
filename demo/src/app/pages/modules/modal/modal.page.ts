@@ -159,7 +159,7 @@ export class ModalPage {
     public templateTemplate:string = exampleTemplateModalTemplate;
 
     public templateComponent:string = `
-import {SuiModalService, TemplateModalConfig, ModalTemplate} from 'ng2-semantic-ui';
+import {SuiModalService, TemplateModalConfig, ModalTemplate} from '@yhnavein/ng2-semantic-ui';
 
 export interface IContext {
     data:string;
