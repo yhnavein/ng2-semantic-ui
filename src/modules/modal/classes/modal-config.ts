@@ -29,7 +29,7 @@ export class ModalConfig<T, U = undefined, V = undefined> {
     public isBasic:boolean;
     // Whether the modal shows against a light background.
     public isInverted:boolean;
-    // Wheter or not the modal should be placed in the center of the page
+    // Whether or not the modal should be placed in the center of the page
     public isCentered:boolean;
 
     // Whether or not the modal should always display a scrollbar.
