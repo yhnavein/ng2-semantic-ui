@@ -92,6 +92,12 @@ export class ModalPage {
                     defaultValue: "true"
                 },
                 {
+                    name: "isCentered",
+                    type: "boolean",
+                    description: "Whether or not the modal should be placed in the center of the page",
+                    defaultValue: "true"
+                },
+                {
                     name: "isInverted",
                     type: "boolean",
                     description: "Sets whether the modal displays against a light background.",
