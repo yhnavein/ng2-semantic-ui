@@ -1,3 +1,7 @@
 export {
-    SuiTabsModule
+    SuiTabsModule,
+    SuiTabContent,
+    SuiTabHeader,
+    SuiTabset,
+    Tab
 } from "./index";

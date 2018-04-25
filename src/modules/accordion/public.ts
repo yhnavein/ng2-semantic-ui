@@ -1,3 +1,6 @@
 export {
-    SuiAccordionModule
+    SuiAccordionModule,
+    SuiAccordion,
+    SuiAccordionPanel,
+    SuiAccordionService
 } from "./index";

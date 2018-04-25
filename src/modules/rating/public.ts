@@ -1,3 +1,4 @@
 export {
-    SuiRatingModule
+    SuiRatingModule,
+    SuiRating
 } from "./index";

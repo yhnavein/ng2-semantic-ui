@@ -1,3 +1,5 @@
 export {
-    SuiCheckboxModule
+    SuiCheckboxModule,
+    SuiCheckbox,
+    SuiRadio
 } from "./index";

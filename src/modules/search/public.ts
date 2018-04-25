@@ -3,5 +3,6 @@ export {
     SearchService,
     LookupFn,
     FilterFn,
-    IResultContext
+    IResultContext,
+    SuiSearch
 } from "./index";

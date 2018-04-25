@@ -1,3 +1,4 @@
 export {
-    SuiPaginationModule
+    SuiPaginationModule,
+    SuiPagination
 } from "./index";

@@ -1,4 +1,6 @@
 export {
     SuiSelectModule,
-    IOptionContext
+    IOptionContext,
+    SuiSelect,
+    SuiMultiSelect
 } from "./index";

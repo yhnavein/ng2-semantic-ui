@@ -1,4 +1,6 @@
 export {
     SuiDatepickerModule,
-    DatepickerMode
+    DatepickerMode,
+    SuiDatepicker,
+    SuiDatepickerDirective
 } from "./index";
