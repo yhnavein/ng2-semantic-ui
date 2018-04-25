@@ -45,3 +45,5 @@ Thumbs.db
 # output files
 demo/dist
 bundles
+
+gh-pages/
