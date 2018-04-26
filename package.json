@@ -13,6 +13,10 @@
     "url": "https://github.com/yhnavein/ng2-semantic-ui/tree/master/issues"
   },
   "author": "Edward Carroll",
+  "contributors": [
+    "Piotr Dabrowski @ British Council",
+    "Adam Rutkowski @ British Council"
+  ],
   "keywords": [
     "angular",
     "angular-components",

@@ -12,17 +12,14 @@
 
 <!-- Badges -->
 <p align="center">
-  <a href="https://gitter.im/ng2-semantic-ui/Lobby">
-    <img alt="Gitter" src="https://img.shields.io/gitter/room/ng2-semantic-ui/Lobby.js.svg?style=flat-square" />
-  </a>
   <a href="https://travis-ci.org/yhnavein/ng2-semantic-ui">
     <img alt="Travis CI" src="https://img.shields.io/travis/yhnavein/ng2-semantic-ui.svg?style=flat-square" />
   </a>
-  <a href="https://www.npmjs.com/package/ng2-semantic-ui">
-    <img alt="npm" src="https://img.shields.io/npm/v/ng2-semantic-ui.svg?style=flat-square" />
+  <a href="https://www.npmjs.com/package/@yhnavein/ng2-semantic-ui">
+    <img alt="npm" src="https://img.shields.io/npm/v/@yhnavein/ng2-semantic-ui.svg?style=flat-square" />
   </a>
-  <a href="https://www.npmjs.com/package/ng2-semantic-ui">
-    <img alt="monthly downloads" src="https://img.shields.io/npm/dm/ng2-semantic-ui.svg?style=flat-square" />
+  <a href="https://www.npmjs.com/package/@yhnavein/ng2-semantic-ui">
+    <img alt="monthly downloads" src="https://img.shields.io/npm/dm/@yhnavein/ng2-semantic-ui.svg?style=flat-square" />
   </a>
 </p>
 
@@ -36,7 +33,7 @@ Note that only Semantic UI elements that use jQuery are recreated here - those w
 
 ## Installation & Usage
 
-See the [Documentation](https://edcarroll.github.io/ng2-semantic-ui) for installation instructions and extensive examples.
+See the [Documentation](https://yhnavein.github.io/ng2-semantic-ui) for installation instructions and extensive examples.
 
 ## Dependencies
 
@@ -75,7 +72,7 @@ See the [Documentation](https://edcarroll.github.io/ng2-semantic-ui) for install
 
 ## Want to help?
 
-Want to file a bug, contribute some code, or improve documentation? Great! Please read the [contributing guidelines](https://github.com/edcarroll/ng2-semantic-ui/blob/master/CONTRIBUTING.md) to get going.
+Want to file a bug, contribute some code, or improve documentation? Great! Please read the [contributing guidelines](https://github.com/yhnavein/ng2-semantic-ui/blob/master/CONTRIBUTING.md) to get going.
 
 ## Development
 
@@ -112,4 +109,10 @@ this will generate a folder `coverage` with the HTML report
 
 ## License
 
-MIT © [Edward Carroll](https://github.com/edcarroll)
+MIT
+
+## Original Author
+
+This package is basend on [Edward Carroll](https://github.com/edcarroll)'s work.
+
+Original repository: https://github.com/edcarroll/ng2-semantic-ui
