@@ -11,7 +11,7 @@ import { Component } from "@angular/core";
 `]
 })
 export class GettingStartedPage {
-    public installCode:string = `$ npm install ng2-semantic-ui --save`;
+    public installCode:string = `$ npm install @yhnavein/ng2-semantic-ui --save`;
 
     public includeCssCode:string =
 `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">`;
