@@ -11,12 +11,9 @@ import { ModalConfig, ModalSize } from "../classes/modal-config";
     selector: "sui-modal",
     template: `
 <!-- Page dimmer for modal background. -->
-<sui-dimmer class="page modals"
-            [ngClass]="{ 'inverted': isInverted, 'top aligned': !isCentered }"
+<sui-modal-dimmer [ngClass]="{ 'inverted': isInverted, 'top aligned': !isCentered }"
             [(isDimmed)]="dimBackground"
-            [isClickable]="false"
             [transitionDuration]="transitionDuration"
-            [wrapContent]="false"
             (click)="close()">
 
     <!-- Modal component, with transition component attached -->
@@ -25,7 +22,7 @@ import { ModalConfig, ModalSize } from "../classes/modal-config";
          [class.active]="transitionController?.isVisible"
          [class.fullscreen]="isFullScreen"
          [class.basic]="isBasic"
-         [class.scroll]="mustScroll"
+         [class.scrolling]="mustScroll"
          [class.inverted]="isInverted"
          [ngClass]="dynamicClasses"
          (click)="onClick($event)"
@@ -36,24 +33,8 @@ import { ModalConfig, ModalSize } from "../classes/modal-config";
         <!-- @ViewChild reference so we can insert elements beside this div. -->
         <div #templateSibling></div>
     </div>
-</sui-dimmer>
-`,
-    styles: [`
-.ui.dimmer {
-    overflow-y: auto;
-}
-.ui.dimmer.modals {
-    display: flex !important;
-}
-
-/* avoid .scrolling as Semantic UI adds unwanted styles. */
-.scroll {
-    position: absolute !important;
-    margin-top: 3.5rem !important;
-    margin-bottom: 3.5rem !important;
-    top: 0;
-}
-`]
+</sui-modal-dimmer>
+`
 })
 export class SuiModal<T, U> implements OnInit, AfterViewInit {
     @Input()
@@ -211,6 +192,8 @@ export class SuiModal<T, U> implements OnInit, AfterViewInit {
             templateElement.parentNode.removeChild(templateElement);
         }
 
+        setTimeout(() => this.updateScroll());
+
         const element = this._modalElement.nativeElement as Element;
 
         // Focus any element with [autofocus] attribute.
@@ -271,12 +254,12 @@ export class SuiModal<T, U> implements OnInit, AfterViewInit {
 
     // Decides whether the modal needs to reposition to allow scrolling.
     private updateScroll():void {
-        // Semantic UI modal margin is 3.5rem, which is relative to the global font size, so for compatibility:
-        const fontSize = parseFloat(window.getComputedStyle(document.documentElement).getPropertyValue("font-size"));
-        const margin = fontSize * 3.5;
-
         // _mustAlwaysScroll works by stopping _mustScroll from being automatically updated, so it stays `true`.
         if (!this._mustAlwaysScroll && this._modalElement) {
+            // Semantic UI modal margin and dimmer padding are 1rem, which is relative to the global font size, so for compatibility:
+            const fontSize = parseFloat(window.getComputedStyle(document.documentElement).getPropertyValue("font-size"));
+            const margin = fontSize * 2;
+
             const element = this._modalElement.nativeElement as Element;
 
             // The modal must scroll if the window height is smaller than the modal height + both margins.
